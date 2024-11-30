@@ -169,13 +169,10 @@ For any queries or issues, feel free to open an issue in the repository or conta
 
 
 ---
-### Multi-Agent System 项目 GitHub 中文版 README
 
-以下是项目的中文版本 README，适合放在 GitHub 项目中，帮助中文用户理解和使用该项目。
 
----
 
-# 多智能体系统查询处理
+# 多智能体系统查询处理  （中文版）
 
 ## 项目概述
 
@@ -343,7 +340,5 @@ http://127.0.0.1:5000/
 ## 联系方式
 
 如有任何问题或建议，请通过 GitHub Issues 提交，或联系维护者：[yichengqiao21@gmail.com]。
-```
 
----
 
