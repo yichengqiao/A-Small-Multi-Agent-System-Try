@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Agent System</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Multi-Agent System</h1>
+        <form method="POST">
+            <textarea name="query" placeholder="Enter your query here..." rows="4" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+
+        {% if query %}
+        <div class="result">
+            <h3>Your Query:</h3>
+            <p>{{ query }}</p>
+            <h3>Analysis:</h3>
+            <p><strong>Intent:</strong> {{ analysis.intent }}</p>
+            <p><strong>Keywords:</strong> {{ analysis.keywords }}</p>
+            <h3>Retrieved Information:</h3>
+            <ul>
+                {% for item in result %}
+                <li><strong>{{ item.title }}</strong>: {{ item.snippet }} (<a href="{{ item.link }}" target="_blank">Read more</a>)</li>
+                {% endfor %}
+            </ul>
+            <h3>Final Answer:</h3>
+            <p>{{ final_answer }}</p>
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>
