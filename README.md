@@ -175,7 +175,6 @@ For any queries or issues, feel free to open an issue in the repository or conta
 
 ---
 
-```markdown
 # 多智能体系统查询处理
 
 ## 项目概述
