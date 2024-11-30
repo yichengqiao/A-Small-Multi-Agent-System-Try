@@ -166,7 +166,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ## Contact
 
 For any queries or issues, feel free to open an issue in the repository or contact the maintainer at [yichengqiao21@gmail.com].
-```
+
 
 ---
 ### Multi-Agent System 项目 GitHub 中文版 README
