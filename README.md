@@ -44,7 +44,7 @@ Follow these steps to set up and run the project locally:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/multi-agent-system.git
+git clone https://github.com/yichengqiao/Multi-Agent-System-for-Query-Processing.git
 cd multi-agent-system
 ```
 
@@ -218,7 +218,7 @@ multi_agent_system/
 
 ### 1. 克隆仓库
 ```bash
-git clone https://github.com/your-username/multi-agent-system.git
+git clone https://github.com/yichengqiao/Multi-Agent-System-for-Query-Processing.git
 cd multi-agent-system
 ```
 
